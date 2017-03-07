@@ -1,6 +1,9 @@
 var camera, scene, texture, particleLight, renderer;
 var moons = [];
 
+debug on
+debug on
+
 init();
 moon( "blue" );
 animate();
