@@ -1,9 +1,6 @@
 var camera, scene, texture, particleLight, renderer;
 var moons = [];
 
-debug on
-debug on
-
 init();
 moon( "blue" );
 animate();
@@ -92,6 +89,7 @@ function render()
   particleLight.position.y = Math.cos( timer * 5 ) * 400;
   particleLight.position.z = Math.cos( timer * 3 ) * 300;
 
+  // render it
   renderer.render( scene, camera );
 }
 
