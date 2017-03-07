@@ -2,7 +2,7 @@ var camera, scene, texture, particleLight, renderer;
 var moons = [];
 
 init();
-moon( "green" );
+moon( "blue" );
 animate();
 
 function moon( color )
